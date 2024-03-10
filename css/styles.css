@@ -105,6 +105,7 @@ a:hover {
 /* psuedo class not found in the text book */
 input:optional {
   background-color: lightblue;
+  color: black;
 }
 
 input:checked {
@@ -141,11 +142,17 @@ input:checked {
     }
   
   nav li {
-    display: block;
-    color: #f6eee4;
-    font-size: 1.5em;
-    font-family: fantasy, Arial, sans-serif;
+    display: inline;  /*displays nav horizontally*/
+    font-size: 2.5em;
+    font-family: 'Brush Script MT', cursive;
     font-weight: bold;
+    padding-right: 30px;
+  }
+
+   /* Wrapper for table - hide table and white "Employers label in mobile view */
+   .employerTbl, h4 {
+    display: none;
+
   }
 
   footer {
@@ -185,11 +192,11 @@ nav ul {
   }
 
 nav li {
-  display: block;
-  color: #f6eee4;
-  font-size: 1.5em;
-  font-family: fantasy, Arial, sans-serif;
+  display: inline;  /*displays nav horizontally*/
+  font-size: 2.5em;
+  font-family: 'Brush Script MT', cursive;
   font-weight: bold;
+  padding-right: 30px;
 }
 
 /* Change color of rows */
@@ -252,77 +259,6 @@ footer {
 }
 
 
-/* Tablet navigation */
-/*
-nav {
-  background-color: #000000;
-}
-
-nav ul {
-  list-style: none;
-  text-align: center;
-  }
-
-nav li {
-  display: block;
-  color: #f6eee4;
-  font-size: 1.5em;
-  font-family: Geneva, Arial, sans-serif;
-  font-weight: bold;
-}
-*/
-
-/* Change color of rows */
-/*
-.row-1 {
-  background-color: #d2afff;
-}
-
-.row-2 {
-  background-color:  lightgray;
-}
-*/
-
-/* Hide hero img */
-/* .hero-img {
-  display: none;
-  } */
-
-  /* Hide figure captions */
-   /* figcaption {
-    display: none;
-    color: white;
-  } */
-
-  /* Hide aside title */
-  /* .aside-title {
-    display: none;
-  } */
-
-  /* Make the list of the company names smaller */
-  /* li {
-    font-size: 15px;
-
-
-  } */
-
-  /* Wrapper for table - hide table and white "Employers label in mobile view */
-  /* .employerTbl, h4 {
-    display: none;
-
-  } */
-
-  /* Show list of employers */
-/* .mobileEmployers {
-  display: block;
-  
-} */
-
-/* Switch from 3 cols to 2 cols on hobby page.  Hide col 1 text and only display pics */
-/* .col-1 {
-  display: none;
-} */
-
 
 
 /************************************** Desktop: ****************************/
@@ -349,8 +285,8 @@ nav li {
 
   nav li {
     display: inline;  /*displays nav horizontally*/
-    font-size: 1.5em;
-    font-family: fantasy, Arial, sans-serif;
+    font-size: 2.5em;
+    font-family: 'Brush Script MT', cursive;
     font-weight: bold;
     padding-right: 30px;
 
@@ -520,7 +456,7 @@ figure {
 }
 
 .quote {
-  color: orange;
+  color: blue;
 }
 
 }
